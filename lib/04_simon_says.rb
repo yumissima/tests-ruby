@@ -1,5 +1,5 @@
-def simon_say(echo)
-    return " #{echo}"
+def echo(word)
+    return "#{word}"
 end
 
 def shout(word)
