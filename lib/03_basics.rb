@@ -19,7 +19,20 @@ def who_is_bigger(a, b, c)
 end
 
    
+def reverse_upcase_noLTA(texte)
+
+    return texte.reverse.upcase.tr("LTA","")
+end
+
    
    
+def array_42(array)
+  array.each do |x|
+    if x==42
+      return true
+    end
    
-   
+    end
+        return false
+end
+
